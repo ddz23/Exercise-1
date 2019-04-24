@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900" rel="stylesheet">
+    <title>Biography</title>
+    <style>
+        .bg-scroll {
+            /* The image used */
+            background-image: url("asset/img/photo1.jpg");
+    
+            /* Set a specific height */
+            min-height: 600px;
+    
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .judul {
+            font-family: Monsterrat, sans-serif ;
+        }
+
+        .bg-foto {
+            /* The image used */
+            background-image: url("asset/img/photo2.jpg");
+    
+            /* Set a specific height */
+            min-height: 600px;
+    
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><span style="font-size: 150%;"><strong> BIOGRAPHY </strong></span></a>
+        <div class="collapse navbar-collapse" style="display: flex; justify-content: flex-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#main">Main</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#photo">Photos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Page -->
+    <div id="main" class="col-12 bg-scroll" style="height: 600px; border-bottom: #212529 solid 5px; margin-top: 70px">
+        <div class="container d-flex justify-content-center">
+            <div class="text-center" style="padding-top: 70px">
+                <img src="asset/img/pic10.jpg" alt="" height="300px" width="300px" class="rounded-circle"><br>
+                <h1 style="font-family: 'Montserrat', sans-serif; color: white"><strong> HELLO!! </strong></h1>
+                <h3 style="font-family: 'Montserrat', sans-serif; color: white"><strong> My Name is Dudin </strong></h3>
+                <p style="color: white; font-size: 20px">If you want to know more about me..</p>
+                <a href="#about"><button class="btn btn-success">Click Here!</button></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div id="about" class="col-12 bg-yellow" style="height: 400px; border-bottom: #212529 solid 5px">
+        <div class="container d-flex justify-content-center" style="padding-top: 30px">
+            <div class="col-5" style="padding-top: 10px">
+                <div class="text-center">
+                    <img src="asset/img/Hacktiv8.png" height="300px" width="auto">
+                </div>
+            </div>
+            <div class="col-7">
+                <div>
+                    <div>
+                        <h1 style="font-family: Monsterrat, sans-serif;color: #212529; text-align: center"><strong> ABOUT ME</strong></h1><br>
+                        <div id="nama">
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="judul"><strong> NAME </strong></p>
+                                </div>
+                                <div class="col-1">
+                                    <p>:</p>
+                                </div>
+                                <div class="col-8">
+                                    <p class="isi"><strong> Imadudin Abdan Syakuro </strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="email">
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="judul"><strong> E-MAIL </strong></p>
+                                </div>
+                                <div class="col-1">
+                                    <p>:</p>
+                                </div>
+                                <div class="col-8">
+                                    <p class="isi"><strong> imadudin.as@gmail.com </strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="alamat">
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="judul"><strong> ALAMAT </strong></p>
+                                </div>
+                                <div class="col-1">
+                                    <p>:</p>
+                                </div>
+                                <div class="col-8">
+                                    <p class="isi"><strong> Jln. Puri Intan No. 52 RT.04 RW.17 Pisangan, Ciputat Timur, Tangerang Selatan, Banten </strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="telepon">
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="judul"><strong> NO. HP </strong></p>
+                                </div>
+                                <div class="col-1">
+                                    <p>:</p>
+                                </div>
+                                <div class="col-8">
+                                    <p class="isi"><strong> +62 812-8036-1xxx </strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="pendidikan">
+                            <div class="row">
+                                <div class="col-2">
+                                    <p class="judul"><strong> PENDIDIKAN </strong></p>
+                                </div>
+                                <div class="col-1">
+                                    <p>:</p>
+                                </div>
+                                <div class="col-8">
+                                    <p class="isi"><strong> S1 Sistem Informasi <br>UIN Syarif Hidayatullah Jakarta </strong></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Photo  -->
+    <div id="photo" class="col-12 bg-foto" style="height: 100%; border-bottom: #212529 solid 5px">
+        <div class="container" style="padding-top: 10px">
+            <div class="card" style="margin-bottom: 10px;">
+                <div class="card-header card-primary">
+                    <h5>PHOTOS OF ME</h5>
+                </div>
+                <div class="card-body">
+                    <div class="card-columns" style="height: 724px">
+                        <div class="card">
+                            <img class="card-img-top" src="asset/img/pic1.JPG" alt="Card image cap">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="asset/img/pic2.JPG" alt="Card image cap">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="asset/img/pic5.JPG" alt="Card image cap">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="asset/img/pic3.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="asset/img/pic6.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="asset/img/pic7.jpg" alt="Card image cap">
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="asset/img/pic8.jpg" alt="Card image cap">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
